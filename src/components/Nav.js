@@ -31,20 +31,23 @@ export default function Nav() {
       </ul>
 
       {/* hamburger menu */}
-      <div onClick={handleNavClick} className='md:hidden z-10 cursor-pointer'>
+      <div onClick={handleNavClick} className='md:hidden cursor-pointer'>
         {!isNav ? <MenuIcon /> : <CloseIcon /> }
       </div>
 
       {/* mobile menu */}
       <ul className={!isNav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-slate-400 flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>
-          <Link to='about'>About</Link>
+          <Link to='home' onClick={handleNavClick}>Home</Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link to='projects'>Projects</Link>
+          <Link to='about' onClick={handleNavClick}>About</Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link to='contact'>Contact</Link>
+          <Link to='projects' onClick={handleNavClick}>Projects</Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link to='contact' onClick={handleNavClick}>Contact</Link>
         </li>
       </ul>
     </div>
