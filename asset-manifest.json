@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.536ffd69.css",
+    "main.js": "/Personal-Website/static/js/main.b7cfbfaa.js",
+    "static/media/weatherly.png": "/Personal-Website/static/media/weatherly.8ce53699c258430f5128.png",
+    "static/media/Resume.pdf": "/Personal-Website/static/media/Resume.e4f7c7fd48e1134645e4.pdf",
+    "static/media/notepal.png": "/Personal-Website/static/media/notepal.515c9643f3d5c1fad261.png",
+    "static/media/katakana.png": "/Personal-Website/static/media/katakana.d2514ce598c2743dd1ba.png",
+    "index.html": "/Personal-Website/index.html",
+    "main.536ffd69.css.map": "/Personal-Website/static/css/main.536ffd69.css.map",
+    "main.b7cfbfaa.js.map": "/Personal-Website/static/js/main.b7cfbfaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.536ffd69.css",
+    "static/js/main.b7cfbfaa.js"
+  ]
+}
